@@ -27,17 +27,17 @@ Readme Übersetzungen:
 <kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/it.svg" width="22">](docs/README-it.md)</kbd>
 
 ## Was ist das?
-nuclear ist ein kostenloses Musikstreamingprogramm, welches Inhalt von kostenlosen Quellen aus dem Internet bezieht.
+nuclear ist ein kostenloses Musikstreamingprogramm, dass seine Inhalte von kostenlosen Quellen aus dem Internet entnimmt. 
 
 Wenn Sie [mps-youtube](https://github.com/mps-youtube/mps-youtube) kennen, ist dies ein ähnlicher Musikplayer - jedoch mit GUI.
-Es ist ebenfalls mehr auf das Audio fokussiert. Stellen Sie sich Spotify vor, jedoch mit einerer grösseren Bibliothek und kostenlos.
+Es ist vergleichbar mit Spotify, mit dem Unterschied, dass es eine  größere Auswahl an Lieder besitzt und kostenlos ist.
 
 ## Was, wenn ich Electron überhaupt nicht ausstehen kann?
 Schauen Sie [das](docs/electron.md) an.
 
 ## Merkmale
 
-- Suche und Wiedergabe von Musik auf YouTube (inklusive Integration von Playlists und [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius und SoundCloud
+- Suche und spiele Musik von YouTube ab. (inklusive Integration von Playlists und [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius und SoundCloud
 - Suche nach Alben (unterstützt von Last.fm und Discogs), Albenansicht, automatischer Liedsuche basierend auf Künstler- und Liedname (in Arbeit, kann etwas holprig sein)
 - Musikwarteschlange, welche als Playlist exportiert werden kann
 - Aufrufen gespeicherter Playlists (als json Datein gespeichert)
@@ -117,7 +117,7 @@ $ lerna bootstrap
 $ npm run build
 ```
 
-Anstelle von `build` können Sie `build:all` verwenden um für alle Betriebsysteme zu kompilieren. Die Daten werden sich in `packages/app/release` befinden.
+Anstelle von `build` können Sie `build:all` verwenden, um für alle Betriebsysteme zu kompilieren. Die Daten werden sich in `packages/app/release` befinden.
 
 ---
 Es ist ebenfalls möglich die Entwicklungsumgebung mithilfe Docker Containers zu benutzen, dies sollte jedoch als Experimentell betrachtet werden.
@@ -165,4 +165,4 @@ Dies wird mit der Entwicklung des Projekts aktualisiert.
 
 ## Lizenz
 
-Dieses Programm ist freie Software: Sie können es under den Klauseln folgender Lizenz verteilen und/oder modifizieren: GNU Affero General Public License veröffentlicht von der Free Software Foundation, entweder Version 3 der Lizenz, oder (es ist Ihre Wahl) eine spätere Version.
+Dieses Programm ist eine freie Software: Sie können es unter den Klauseln folgender Lizenz verteilen und/oder modifizieren: GNU Affero General Public License veröffentlicht von der Free Software Foundation, entweder Version 3 der Lizenz, oder (es ist Ihre Wahl) eine spätere Version.
