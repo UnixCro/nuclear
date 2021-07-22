@@ -1,7 +1,7 @@
 # ![nuclear](https://i.imgur.com/oT1006i.png) 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a15c4888a63c900f6cc1/maintainability)](https://codeclimate.com/github/nukeop/nuclear/maintainability) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/30750586202742279fa8958a12e519ed)](https://www.codacy.com/app/nukeop/nuclear?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nukeop/nuclear&amp;utm_campaign=Badge_Grade) [![nuclear](https://snapcraft.io//nuclear/badge.svg)](https://snapcraft.io/nuclear) [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/JqPjKxE)
 
-Desktop music player focused on streaming from free sources
+A music player for computers with free streaming.
 
 ![Showcase](https://i.imgur.com/8qHu66J.png)
 
@@ -31,34 +31,34 @@ Readme translations:
 <kbd>[<img title="Italiano" alt="Italiano" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/it.svg" width="22">](docs/README-it.md)</kbd>
 <kbd>[<img title="Türkçe" alt="Türkçe" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/tr.svg" width="22">](docs/README-tr.md)</kbd>
 
-## What is this?
-nuclear is a free music streaming program that pulls content from free sources all over the internet.
+## What exactly is nuclear?
+nuclear is a free streaming service that takes its content from free sources on the Internet.
 
-If you know [mps-youtube](https://github.com/mps-youtube/mps-youtube), this is a similar music player but with a GUI.
-It's also focusing more on audio. Imagine Spotify which you don't have to pay for and with a bigger library.
+If [mps-youtube](https://github.com/mps-youtube/mps-youtube) sounds familiar to you, you can roughly imagine that nuclear is similar to this, but with the advantage that it has a graphical interface.
+It can be said that it is like Spotify, but with a larger, and most importantly, free music library.
 
-## What if I am religiously opposed to Electron?
+## What if I don't particularly like Electron?
 See [this](docs/electron.md).
 
-## Features
+## Properties of nuclear
 
-- Searching for and playing music from YouTube (including integration with playlists and [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius and SoundCloud
-- Searching for albums (powered by Last.fm and Discogs), album view, automatic song lookup based on artist and track name (in progress, can be dodgy sometimes)
-- Song queue, which can be exported as a playlist
-- Loading saved playlists (stored in json files)
-- Scrobbling to last.fm (along with updating the 'now playing' status)
-- Newest releases with reviews - tracks and albums
-- Browsing by genre
-- Radio mode (automatically queue similar tracks)
-- Unlimited downloads (powered by youtube)
-- Realtime lyrics
-- Browsing by popularity
-- List of favorite tracks
-- Listening from local library
+- Search and playback of music from YouTube (including integration of playlists and [SponsorBlock](https://sponsor.ajay.app/)), Jamendo, Audius and SoundCloud)
+- Search for albums (supported by Last.fm and Discogs), album view, automatic song search based on artist and song name (in progress, can be a bit bumpy)
+- Music queue that can be exported as a playlist if required
+- Calling up saved playlists (saved as json file (s))
+- Support of Last.fm scrobbling (including updating the 'playing now' status)
+- Latest releases with reviews - songs and albums
+- Search for Art
+- Radio mode (automatic queuing of similar songs)
+- Unlimited downloads (supported by Youtube)
+- Playback of lyrics in real time
+- Preview of current favorites
+- List of favorite songs
+- Play your own local library
 - No accounts
 - No ads
-- No CoC
-- No CLA
+- No CoC (Code of Conduct)
+- No CLA (Contributor Agreement)
 
 ## Development process
 
@@ -68,7 +68,7 @@ The instructions for running Nuclear in development mode can be found in the [De
 
 ## Community-maintained packages
 
-Here's a list of packages for various managers, some of which are maintained by third parties. We would like to thank the maintainers for their work.
+Here is a list of third party packages for most operating systems. Most of them are maintained by the publishers. Thank you very much for providing these packages.
 
 | Package type   | Link                                                               | Maintainer                                   | Installation Method                           |
 |:--------------:|:------------------------------------------------------------------:|:--------------------------------------------:|:---------------------------------------------:|
@@ -82,7 +82,7 @@ Here's a list of packages for various managers, some of which are maintained by 
 
 
 ## Community translations
-Nuclear has already been translated to several languages, and we're always looking for contributors who would like to add more. Below is a list of currently available languages, along with contributors who helped to translate Nuclear to that language.
+Nuclear has already been translated into many languages, but we are still looking for new contributors who want to add new languages or improve the quality of the content or something similar. Here is a list of currently available languages and their translators.
 
 | Language             | Contributor                                                                                                 |
 |:--------------------:|:-----------------------------------------------------------------------------------------------------------:|
@@ -128,4 +128,4 @@ This will be updated as the program evolves.
 
 ## License
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is under the "Free Software" license, which means that not only can the software be used and distributed free of charge, but the author is also obliged to disclose the source code. The licensee may then not only view this source code, but also change it and redistribute the changed source code and the software resulting from it.
